@@ -357,3 +357,9 @@
         padding-inline: 15px;
     }
 }
+
+@media (max-width:865px) and (min-width:720px){
+    .hero-right img{
+        width: 60%;
+    }
+}
