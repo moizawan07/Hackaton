@@ -15,9 +15,15 @@
 
 .navbar{
     width: 100%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: white;
+    padding-bottom: 20px;
 }
 .logo{
     padding-top: 40px;
@@ -121,6 +127,11 @@
 }
 .hero-right img{
     width: 70%;
+}
+.hero-right:hover{
+   transform: translateY(-15px);
+   transform: scale(1.1);
+   transition:  all 1s ease-in-out;
 }
 .hero-right p , button{
     display: none;
