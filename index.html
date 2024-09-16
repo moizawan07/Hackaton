@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hackaton</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7e4bb5f098.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -30,17 +31,20 @@
     </div>
     <div class="hro-section">
         <div class="hero-left">
-            <h1>NAvigating the <br> digital landscape <br> for sucess</h1>
+            <h1>Navigating the <br> digital landscape <br> for sucess</h1>
             <p>Lorem architecto quo. Earum,r rem nam tempora officia, eveniet, minus nesciunt voluptatem sint consequatur vero repudiandae rerum obcaecati alias, maiores quos.</p>
             <button>Book A consualting</button>
         </div>
         <div class="hero-right">
-            <img src="hero.jpg" alt="">
+            <img data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="600"
+            data-aos-duration="1800" src="hero.jpg" alt="">
             <p>Lorem ipsum dolor sit ametm, earm rem tenmpora offia minus events nesics colhgts ominus nesciunt voluptatem sint consequatur vero repudiandae rerum obcaecati alias, maiores quos.</p>
             <button>Book A consualting</button>
         </div>
     </div>
-    <div class="section2">
+    <div class="section2"  data-aos="zoom-in-left"  data-aos-duration="1500">
         <img src="amazon.jpg" alt="">
         <img src="drible.jpg" alt="">
         <img src="hub.jpg" alt="">
@@ -58,7 +62,8 @@
         <h2>Services</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat error  <br>officiis tempora ipsam, temporibus sed adipisci laborum ea? Suscip.</p>
     </div>
-    <div class="section4">
+    <div class="section4" data-aos="fade-up"
+    data-aos-anchor-placement="top-center"  data-aos-duration="1200">
         <div class="s4left">
             <div class="s4min-left">
             <h2>Serch engine <br> optimization</h2>
@@ -95,7 +100,7 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus illum <br> maxime molestiae ipsum! Obcaecati.</p>
         </div>
         <div class="section6">
-            <div class="s6card" id="s6card1">
+            <div class="s6card" id="s6card1"  data-aos="flip-down"  data-aos-duration="1700">
               <div class="s6first-line">
                 <h1>01 <span> Consultation</span></h1>
                 <div class="s6-ic">
@@ -105,7 +110,7 @@
                 <hr color="black" class="hr">
                 <p>Lorem ipsum dolor sit amet, consectetur  elit. Maiores cumque iure a expedita vitae ea blanditiis ad, voluptate praesentium libero dignissimos officiis possimus, error rerum perferendis itaque earum aperiam modi rem. Impedit aspernatur officia dolores quod nihil corrupti totam aliquam.</p>
             </div>
-            <div class="s6card" id="s6card2">
+            <div class="s6card" id="s6card2"  data-aos="flip-up"  data-aos-duration="1700">
                 <div class="s6first-line">
                   <h1>02 <span> Research</span></h1>
                   <div class="s6-ic" id="s6ic2">
@@ -113,7 +118,7 @@
                   </div>
                   </div>
               </div>
-              <div class="s6card" id="s6card2">
+              <div class="s6card" id="s6card2"  data-aos="flip-right"  data-aos-duration="2000">
                   <div class="s6first-line">
                     <h1>03 <span> Implemation</span></h1>
                     <div class="s6-ic" id="s6ic2">
@@ -121,7 +126,7 @@
                     </div>
                   </div>
               </div>
-              <div class="s6card" id="s6card2">
+              <div class="s6card" id="s6card2"  data-aos="flip-left"  data-aos-duration="2000">
                 <div class="s6first-line">
                   <h1>04 <span> Monitoring</span></h1>
                   <div class="s6-ic" id="s6ic2">
@@ -129,7 +134,7 @@
                   </div>
                 </div>
             </div>
-            <div class="s6card" id="s6card2">
+            <div class="s6card" id="s6card2"  data-aos="flip-down"  data-aos-duration="1700">
                 <div class="s6first-line">
                   <h1>05 <span>Reporting</span></h1>
                   <div class="s6-ic" id="s6ic2">
@@ -137,7 +142,7 @@
                   </div>
                 </div>
             </div>
-            <div class="s6card" id="s6card2">
+            <div class="s6card" id="s6card2"  data-aos="flip-up"  data-aos-duration="1700">
                 <div class="s6first-line">
                   <h1>06 <span> Continual</span></h1>
                   <div class="s6-ic" id="s6ic2">
@@ -153,7 +158,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing.  <br>elit Dicta, architecto.</p>
         </div>
         <div class="section8">
-            <div class="s8-left">
+            <div class="s8-left"  data-aos="fade-right"  data-aos-duration="2000">
               <div class="s8-text1">
                 <input type="radio"> <b>Say Hi</b>
                 <input type="radio"> <b>Get a Quote</b>
@@ -169,7 +174,7 @@
                 </div>
             </div>
             <div class="s8-right">
-                <img src="form-removebg-preview.png" alt="">
+                <img src="form-removebg-preview.png" alt=""  data-aos="fade-right"  data-aos-duration="2000">
             </div>
         </div>
         <div class="footer">
@@ -214,5 +219,9 @@
         </div>
     <!-- </div> -->
 </div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
 </body>
 </html>
