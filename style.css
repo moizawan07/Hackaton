@@ -15,7 +15,6 @@
 
 .navbar{
     width: 100%;
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,6 +23,9 @@
     z-index: 1;
     background-color: white;
     padding-bottom: 20px;
+    box-shadow: -5px -2px 2px 4px #427f01;
+    padding-left: 70px;
+
 }
 .logo{
     padding-top: 40px;
@@ -387,14 +389,17 @@
     padding-bottom: 40px;
 }
 .s8-left{
-    width: 60%;
+    width: 50%;
 }
 .s8-right{
-   width: 40%;
+   width: 50%;
+   overflow: hidden;
 }
 .s8-right img{
   width: 100%;
-  height: 500px;
+  height: 600px;
+  position: relative;
+  left: 43%;
 }
 .s8-text1 input{
     width: 30px;
